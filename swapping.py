@@ -1,7 +1,8 @@
-# swap two numbers
-a=int(input("enter the value of a"))
-b=int(input("enter the value of b"))
-a=a+b
-b=a-b
-a=a-b
-print(a,b)
+x=5
+y=10
+temp=x
+x=y
+y=temp
+print('the value of x after swapping:{}'.format(x))
+print('the value of y after swapping:{}'.format(y))
+      
